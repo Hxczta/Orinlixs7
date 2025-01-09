@@ -6,19 +6,18 @@ local Mouse = LocalPlayer:GetMouse()
 local HttpService = game:GetService("HttpService")
 
 local OrionLib = {
-local OrionLib = {
     Elements = {},
     ThemeObjects = {},
     Connections = {},
     Flags = {},
     Themes = {
         Default = {
-            Main = Color3.fromRGB(0, 255, 0),
-            Second = Color3.fromRGB(0, 0, 0),
-            Stroke = Color3.fromRGB(255,255,255),
-            Divider = Color3.fromRGB(60, 60, 60),
-            Text = Color3.fromRGB(255,215,0),
-            TextDark = Color3.fromRGB(255,215,0)
+            Main = Color3.fromRGB(128, 128, 128),
+            Second = Color3.fromRGB(128, 128, 128),
+            Stroke = Color3.fromRGB(255, 255, 255),
+            Divider = Color3.fromRGB(128, 128, 128),
+            Text = Color3.fromRGB(255, 215, 0),
+            TextDark = Color3.fromRGB(255, 215, 0)
         }
     },
     SelectedTheme = "Default",
